@@ -1,0 +1,46 @@
+/* Медиазапросы для мобильных устройств */
+@media only screen and (max-width: 767px) {
+  /* Скрытие некоторых элементов */
+  .navbar .py-2:nth-child(n+4) {
+    display: none;
+  }
+  
+  /* Изменение размера шрифта и отступов у элементов */
+  .navbar .my-0 {
+    font-size: 1.5rem;
+    margin-right: auto;
+  }
+
+  .navbar .py-2 {
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
+}
+
+/* Медиазапросы для планшетов и ноутбуков */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* Изменение размера шрифта и отступов у элементов */
+  .navbar .my-0 {
+    font-size: 2rem;
+    margin-right: auto;
+  }
+
+  .navbar .py-2 {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+}
+
+/* Медиазапросы для компьютеров */
+@media only screen and (min-width: 1200px) {
+  /* Изменение размера шрифта и отступов у элементов */
+  .navbar .my-0 {
+    font-size: 3rem;
+    margin-right: auto;
+  }
+
+  .navbar .py-2 {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+}
